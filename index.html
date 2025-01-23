@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App - Bun with Tailwind</title>
+    <link rel="stylesheet" href="tailwindcss" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="min-h-screen bg-gray-100">
+      <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between items-center py-4">
+            <div class="text-xl font-bold text-gray-800">Todo App</div>
+            <div class="space-x-4">
+              <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+              <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold text-gray-900 mb-4">
+            Welcome to Todo App
+          </h1>
+          <p class="text-lg text-gray-600 mb-8">
+            A simple and efficient way to manage your tasks
+          </p>
+          <button
+            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4">Easy to Use</h2>
+            <p class="text-gray-600">
+              Simple and intuitive interface for managing your daily tasks.
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4">Fast & Reliable</h2>
+            <p class="text-gray-600">
+              Built with Bun and modern web technologies for optimal
+              performance.
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4">Secure</h2>
+            <p class="text-gray-600">
+              Your data is safe and protected with our secure infrastructure.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="bg-gray-800 text-white mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+          <p class="text-center">© 2023 Todo App. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
